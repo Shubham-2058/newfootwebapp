@@ -9,34 +9,133 @@ body {
     background-image: url(eurocup.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed;    
+  }
+  .football{
+    object-fit: cover; 
+    object-position: center;
+    overflow: hidden;
+
+  }
+
+  .middle{
+    width: 6000px;
+    background-color: #faf9f9;
+    transform: translate(80%,-273%);
+    height: 100px;
+    display: block;
     
   }
+  .navbar{
+    background-color: #4CAF50;
+    overflow: hidden;
+    transform: translate(40%, -59%);
+    display: inline-block;
+    width: 28500px;
+    text-decoration: none;
+    display: flex;
+    margin-left: -1200px;
+    margin-top: -375px;
+
+  }
+  .navbar a{
+    float: left;
+    text-align: center;
+    display: flex;
+    margin-left: 130px;
+    text-decoration: none;
+    padding: 10px 5px 5px 4px;
+    color: white;
+    justify-content: center;
+
+  }
+  .esewa{
+    width: 10000px;
+    background-color: #fcf9f9;
+    transform: translate(47%,-273%);
+    height: 100px;
+    display: block;
+  }
+
+  #backgroundImage{z-index: 1;}
+
+#backgroundImage:before {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-image: url(eurocup.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.4;
+    filter:alpha(opacity=40);
+    height:100%;
+    width:100%;
+ }
+
   .esewa-logo{
-    transform: translate(52%,-250%);
+    transform: translate(-300%,-261%);
     width: 350px;
-    opacity: 0.9;
-    background-color: black;
+    opacity: 1;
+    background-color: rgb(250, 250, 250);
   }
   
   .page {
     text-align: center;
-    transform: translate(-83%, 20%);
+    display: block;
+    transform: translate(5%,-1100%);
+  }
+  .info{
+    transform: translate(2%, -295%);
+    overflow: hidden; 
+    text-overflow:inherit; 
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    height: 364px;
+    width: 777px;
+
+
+
+
+  
   }
   
   .hidden {
     display: none;
   }
+  .intro{
+    color: rgb(253, 252, 252);
+    height: 450px;
+    width: 22000px;
+    border: 4px solid rgb(252, 206, 206);
+    text-align: center;
+    transform: translate(-10%, -495%);
+    text-decoration: solid;
+    justify-content: center;
+    background-color: #4CAF50;
+    margin-top: 4910px;
+    padding-top: 18px;
+    padding-bottom: 7px;
+    font-size: xx-large;
+    opacity: 0.9;
+    ;
+
+  }
   
-  .circular-button {
+  .Rectangular-button {
     width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    height: 55px;
+    border-radius: 5px;
     font-size: 18px;
     background-color: #4CAF50;
     color: white;
-    border: none;
+    border: solid 5px;
     cursor: pointer;
+    text-decoration: underline;
+    
   }
   
   #matchList {
