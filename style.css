@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(eurocup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+  }
+  .esewa-logo{
+    transform: translate(52%,-250%);
+    width: 350px;
+    opacity: 0.9;
+    background-color: black;
+  }
+  
+  .page {
+    text-align: center;
+    transform: translate(-83%, 20%);
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .circular-button {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #matchList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #matchList li {
+    margin-bottom: 10px;
+  }
