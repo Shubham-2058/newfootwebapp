@@ -16,9 +16,25 @@ body {
 .match1-img, .german, .scotland, .hungary, .switzerland, .spain {
   width: 60px;
 }
+.switzerland{
+  transform: translate(16%,20%);
+}
+.scotland{
+  transform: translate(12%,20%);
+}
+.germany{
+  transform: translate(12%,20%);
+}
+.hungary{
+  transform: translate(0%,20%);
+}
+.spain{
+  transform:translate(-11%,20%);
+}
 .croatia{
   width: 60px;
   height: 40px;
+  transform: translate(15%,20%);
 }
 
 .container {
@@ -29,14 +45,10 @@ body {
   max-width: 600px;
   width: 100%;
   box-shadow: 0 4px 8px rgba(52, 66, 146, 0.3);
-  margin-top: 36%;
-  padding-top: 20px;
+  margin-top: 39%;
+  padding-top: 12px;
   margin-bottom: 2%;
   
-}
-.container h1{
-  
-
 }
 .container h2{
   font-size: 1.8em;
@@ -150,6 +162,7 @@ input[type="number"] {
 #teamE1{
   width: 35px;
   height: 10px;
+  transform:translate(20%, -6%);
 }
 #teamF1{
   width: 35px;

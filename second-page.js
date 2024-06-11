@@ -10,6 +10,8 @@ document.addEventListener('DOMContentLoaded', function() {
   
     const predictionPage = `
       <div class="container">
+        <div class="header">
+          
 
         <h1>Enter Your Predictions </h1> 
         <h2> For Match-Day 1 </h2>
@@ -30,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
               <img src="hungary.jpg" class="hungary">
               Hungary <input type="number" id="teamC1" placeholder="">
                   V/S  <img src="switzerland.jpg"  class="switzerland">
-            Switzerland <input type="number" id="teamD1" placeholder="">
+                  Switzerland <input type="number" id="teamD1" placeholder="">
             </label>
             </div>
           </div>
@@ -40,13 +42,13 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="vs3">
               <img src="spain.jpg"  class="spain">
               Spain <input type="number" id="teamE1" placeholder="">
-            V/S <img src="croatia.jpg"  class="croatia">
+              V/S   <img src="croatia.jpg"  class="croatia">
             Croatia <input type="number" id="teamF1" placeholder="">
             </label>
             </div>
            </div>
           <button type="submit" class="button button1">Submit Predictions</button>
-        </form> <br>
+        </form> <br><br>
         <button id="go-back">Go Back</button>
       </div>
     `;

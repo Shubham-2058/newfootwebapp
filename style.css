@@ -20,14 +20,7 @@ body {
     transform: translate(-276%,-20%);
   }
   
-  .esewa {
-    width: 200px;
-    background-color: #f5efef;
-    height: 105px;
-    position: relative;
-    transform: translate(-150%, -20%);
-    height: 100px;
-  }
+  
   
   .navbar {
     background-color: #4CAF50;
@@ -74,7 +67,7 @@ body {
   
   .info {
     position: absolute;
-    top: 127%;
+    top: 128%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.7);
@@ -112,4 +105,32 @@ body {
   #matchList li {
     margin-bottom: 10px;
   }
-  
+
+  .esewa{
+    width: 500px;
+    height: 250px;
+    margin-top: 10px;
+    background-color: rgb(253, 253, 253);
+    justify-content: right;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .instructions1{
+    text-align: justify;
+    font-family:monospace;
+    font-size: large;
+   
+  }
+  .intro h3{
+    font-size: larger;
+    font-family:cursive;
+  }
+  .white-header{
+    justify-content: left;
+    width: 500px;
+    height: 1300px;
+    margin-right: 50px;
+    background-color: white;
+    margin-top: 5px;
+    
+  }
