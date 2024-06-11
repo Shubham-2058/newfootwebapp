@@ -10,24 +10,42 @@ document.addEventListener('DOMContentLoaded', function() {
   
     const predictionPage = `
       <div class="container">
-        <h1>Enter Your Predictions</h1>
+
+        <h1>Enter Your Predictions </h1> 
+        <h2> For Match-Day 1 </h2>
         <form id="predictions-form">
           <div class="form-group">
-            <label>Match 1: Germany vs Sacotland</label>
-            <input type="number" id="teamA1" placeholder="Team A">
-            <input type="number" id="teamB1" placeholder="Team B">
+            <label> <h1>Match 1: </h1><br>
+          
+            <div class="vs1">
+             <img src="german.jpg"  class="german"> Germany <input type="number" id="teamA1" placeholder=""> V/S <img src="scotland.jpg" class="scotland">
+             Scotland</label> <input type="number" id="teamB1" placeholder="">
+
+            </div>
           </div>
           <div class="form-group">
-            <label>Match 2: Hungary vs Switzerland</label>
-            <input type="number" id="teamC1" placeholder="Team C">
-            <input type="number" id="teamD1" placeholder="Team D">
+            <label> <h1>Match 2: </h1><br>
+
+            <div class="vs2">
+              <img src="hungary.jpg" class="hungary">
+              Hungary <input type="number" id="teamC1" placeholder="">
+                  V/S  <img src="switzerland.jpg"  class="switzerland">
+            Switzerland <input type="number" id="teamD1" placeholder="">
+            </label>
+            </div>
           </div>
           <div class="form-group">
-            <label>Match 3: Spain vs Croatia</label>
-            <input type="number" id="teamE1" placeholder="Team E">
-            <input type="number" id="teamF1" placeholder="Team F">
-          </div>
-          <button type="submit">Submit Predictions</button>
+            <label> <h1> Match 3: </h1><br>
+
+            <div class="vs3">
+              <img src="spain.jpg"  class="spain">
+              Spain <input type="number" id="teamE1" placeholder="">
+            V/S <img src="croatia.jpg"  class="croatia">
+            Croatia <input type="number" id="teamF1" placeholder="">
+            </label>
+            </div>
+           </div>
+          <button type="submit" class="button button1">Submit Predictions</button>
         </form> <br>
         <button id="go-back">Go Back</button>
       </div>

@@ -25,7 +25,8 @@ body {
     background-color: #f5efef;
     height: 105px;
     position: relative;
-    z-index: 10;
+    transform: translate(-150%, -20%);
+    height: 100px;
   }
   
   .navbar {
@@ -44,7 +45,6 @@ body {
     padding: 7px 7px 7px 7px;
     text-decoration: none;
     text-align: center;
-    
   }
   
   .intro {

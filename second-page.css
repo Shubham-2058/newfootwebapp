@@ -1,74 +1,170 @@
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    color: #f9faf9;
-    background-color: rgb(28, 253, 28);
-  }
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #f9faf9;
+  background-color: #edf0ed;
+  background-image: url(teams.jpg);
+}
+
+.match1-img, .german, .scotland, .hungary, .switzerland, .spain {
+  width: 60px;
+}
+.croatia{
+  width: 60px;
+  height: 40px;
+}
+
+.container {
+  background-color: #0a0a0acc;
+  padding: 50px;
+  border: 8px solid white;
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(52, 66, 146, 0.3);
+  margin-top: 36%;
+  padding-top: 20px;
+  margin-bottom: 2%;
   
-  .container {
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    max-width: 600px;
-    width: 100%;
-  }
+}
+.container h1{
   
-  h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-  }
+
+}
+.container h2{
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  background: -webkit-linear-gradient(#535353, #1a5a21);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+  .vs1{
+    transform: translate(-18%,0%);
+    margin-left: 25px;
+    font-size: xx-large;
+    width: 900px;
   
-  button {
-    padding: 10px 20px;
-    font-size: 1.2em;
-    color: #ffffff;
-    background-color: #007bff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
   }
+
+  .vs2{
+    transform: translate(-16.5%,0%);
+    margin-left: 25px;
+    font-size: xx-large;
+    width: 900px;
   
-  button:hover {
-    background-color: #0056b3;
   }
+
+  .vs3{
+    transform: translate(-21%,0%);
+    margin-left: 25px;
+    font-size: xx-large;
+    width: 900px;
   
-  .form-group {
-    margin-bottom: 20px;
-    align-items: center;
   }
-  
-  label {
-    display: block;
-    font-size: 1.1em;
-    margin-bottom: 5px;
-  }
-  
-  input[type="number"] {
-    padding: 10px;
-    font-size: 1em;
-    width: 60px;
-    margin-right: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .prediction {
-    background-color: rgba(255, 255, 255, 0.2);
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-  }
-  
-  #prediction-page {
-    display: none;
-  }
-  
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  background: -webkit-linear-gradient(#535353, #1a5a21);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 1.2em;
+  color: #ffffff;
+  background-color: #0056b3;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button1{
+  background-color: #04AA6D;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.form-group {
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+label {
+  display: block;
+  font-size: 1.1em;
+  margin-bottom: 5px;
+  color: #ff9a8b;
+}
+
+input[type="number"] {
+  padding: 10px;
+  font-size: 1em;
+  width: 60px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.prediction {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#prediction-page {
+  display: none;
+}
+
+#teamA1{
+  width: 35px;
+  height: 10px;
+}
+#teamB1{
+  width: 35px;
+  height: 10px;
+}
+#teamC1{
+  width: 35px;
+  height: 10px;
+}
+#teamD1{
+  width: 35px;
+  height: 10px;
+}
+#teamE1{
+  width: 35px;
+  height: 10px;
+}
+#teamF1{
+  width: 35px;
+  height: 10px;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom right, rgba(255, 111, 97, 0.5), rgba(255, 154, 139, 0.5));
+  z-index: -1;
+  border-radius: 15px;
+  filter: blur(10px);
+}
