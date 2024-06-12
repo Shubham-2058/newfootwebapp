@@ -16,6 +16,7 @@ body {
 .match1-img, .german, .scotland, .hungary, .switzerland, .spain {
   width: 60px;
 }
+
 .switzerland{
   transform: translate(16%,20%);
 }

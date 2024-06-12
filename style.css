@@ -125,12 +125,4 @@ body {
     font-size: larger;
     font-family:cursive;
   }
-  .white-header{
-    justify-content: left;
-    width: 500px;
-    height: 1300px;
-    margin-right: 50px;
-    background-color: white;
-    margin-top: 5px;
-    
-  }
+  
