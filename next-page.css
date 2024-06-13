@@ -17,6 +17,27 @@ body{
     animation-iteration-count: infinite;
 
 }
+.info{
+    column-count: 3;
+    column-width: 216px;
+    height: 160px;
+    width: 248px;
+    margin-top: -1650px;
+    margin-left: 300px;
+    font-size: larger;
+}
+
+.info2{
+    column-count: 3;
+    column-width: 356px;
+    height: 250px;
+    width: 250px;
+    margin-top: 100px;
+    margin-left: 300px;
+    font-size: larger;
+
+}
+
 
 .second-keyframe{
     width: 45px;
