@@ -67,7 +67,7 @@ body {
   
   .info {
     position: absolute;
-    top: 128%;
+    top: 132%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.7);
@@ -77,7 +77,7 @@ body {
     width: 100%;
     max-width: 965px;
     text-align: center;
-    height: 950px;
+    height: 970px;
   }
   
   .Rectangular-button {

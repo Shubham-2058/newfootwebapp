@@ -1,0 +1,74 @@
+body{    
+     margin: 0;
+    padding: 0;
+    background-color: grey;
+    
+
+}
+.first-keyframe{
+    width: 60px;
+    height: 60px;
+    opacity: 1;
+    animation-name: example;
+    animation-duration: 10s;
+    position: relative;
+    border-radius: 30px;
+    margin-top: 1%;
+    animation-iteration-count: infinie;
+
+}
+
+
+
+
+
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  { left:400px; top:0px;}
+    50%  {left:0px; top:0px;}
+    75%  { left:400px; top:0px;}
+    100% {left:0px; top:0px;}
+  } 
+
+.header{
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    font-size: larger;
+    background: linear-gradient(rgb(1, 1, 107), white);
+    height: 200px;
+    background-image: url(esewalogo.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: contain;
+    margin-top: -2%;
+    text-shadow: 2px 2px 5px white;
+}
+
+.main img{
+    opacity: 0.8;
+    
+}
+.animation{
+    transform: translate(30%, -2880%);
+}
+
+.instructions{
+    width: 900px;
+    height: 800px;
+    border: 2px solid rgb(88, 74, 74);
+    border-radius: 25px;
+    margin-top: -800px;
+    transform: translate(25%,100%);
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 10px 10px 5px lightblue;
+    
+
+    
+}
+
+
+
