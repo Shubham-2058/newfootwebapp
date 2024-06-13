@@ -6,27 +6,45 @@ body{
 
 }
 .first-keyframe{
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 55px;
     opacity: 1;
     animation-name: example;
     animation-duration: 10s;
     position: relative;
     border-radius: 30px;
-    margin-top: 1%;
-    animation-iteration-count: infinie;
+    margin-top: 0%;
+    animation-iteration-count: infinite;
 
 }
 
+.second-keyframe{
+    width: 45px;
+    height: 55px;
+    opacity: 1;
+    animation-name: example2;
+    animation-duration: 10s;
+    position: relative;
+    border-radius: 30px;
+    margin-top: 0%;
+    animation-iteration-count: infinite;
+    justify-content: center;
 
-
-
+}
 
 @keyframes example {
     0%   {left:0px; top:0px;}
     25%  { left:400px; top:0px;}
     50%  {left:0px; top:0px;}
     75%  { left:400px; top:0px;}
+    100% {left:0px; top:0px;}
+  } 
+
+  @keyframes example2 {
+    0%   {left:0px; top:0px;}
+    25%  { left:-400px; top:0px;}
+    50%  {left:0px; top:0px;}
+    75%  { left:-400px; top:0px;}
     100% {left:0px; top:0px;}
   } 
 
@@ -46,17 +64,25 @@ body{
 }
 
 .main img{
-    opacity: 0.8;
+    opacity: 0.5;
+    margin-top: -74px;
+    
     
 }
 .animation{
-    transform: translate(30%, -2880%);
+    transform: translate(35%, -2980%);
+    margin-top: 75px;
+}
+
+.animation2{
+    justify-content: center;
+    transform: translate(60%, 1320%);
 }
 
 .instructions{
     width: 900px;
     height: 800px;
-    border: 2px solid rgb(88, 74, 74);
+    border: 10px solid rgb(22, 22, 22);
     border-radius: 25px;
     margin-top: -800px;
     transform: translate(25%,100%);
@@ -65,10 +91,23 @@ body{
     justify-content: center;
     text-align: center;
     box-shadow: 10px 10px 5px lightblue;
-    
 
     
 }
+
+.header img{
+    align-items: center;
+    width: 1000px;
+    height: 200px;
+    margin-left: 250px;
+    margin-top: 0px;
+    position: top;
+    position: relative;
+    transform: translate(10.5%, -104%);
+    opacity: 0.3;
+
+}
+
 
 
 
