@@ -11,10 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const predictionPage = `
 
       <div class="container">
-        <div class = "logo" width="150" height="150">
-          <img src= "esewabg.png">
-        </div>
-  
+        
         <div class="header">
           
 

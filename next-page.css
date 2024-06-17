@@ -1,16 +1,18 @@
 body{    
      margin: 0;
     padding: 0;
-    background-color: rgb(58, 59, 58);
+    background-color: rgb(1, 30, 63);
+    
     
 
 }
+
 .second-keyframe img{
     opacity: 1;
 }
-.b input[type=file] { 
+.b { 
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 18px;
     margin-left: 600px;
     width: 140px;
     height: 50px;
@@ -42,28 +44,52 @@ body{
     opacity: 1;
 
 }
+
 .info{
     column-count: 3;
-    column-width: 357px;
-    height: 191px;
-    width: 275px;
+    column-width: 395px;
+    height: 220px;
+    width: 280px;
     margin-top: -1710px;
-    margin-left: 220px;
+    margin-left: 210px;
     font-size: larger;
     text-align: justify;
+    text-shadow: 2px 2px 2px white;
+    text-align: justify;
+    align-content:center;
+    column-rule-style:groove;
+    column-rule-width: 5px;
+
     
 }
+.info h2{
+    text-align: center;
+}
+.info2 h2{
+    text-align: center;
+}
+.sub{
+    height: 30px;
+}
 
+.con{
+    height: 29px;
+}
+.poi{
+    height: -11px;
+}
 .info2{
     column-count: 3;
     column-width: 330px;
-    height: 323px;
+    height: 313px;
     width: 275px;
     margin-top: 50px;
-    margin-left: 220px;
+    margin-left: 215px;
     font-size: larger;
     text-align: justify;
-
+    text-shadow: 2px 2px 2px white;
+    column-rule-style: groove;
+    column-rule-width: 5px;
 }
 
 .second-keyframe{
@@ -112,8 +138,9 @@ body{
 }
 
 .main img{
-    opacity: 0.1;
+    opacity: 0.2;
     margin-top: -75px;
+    border-radius: 50%;
     
     
 }
@@ -140,6 +167,7 @@ body{
     justify-content: center;
     text-align: center;
     box-shadow: 10px 10px 5px lightblue;
+    text-shadow: 1px 1px 1px white;
 
     
 }
@@ -159,12 +187,14 @@ body{
 .footer{
     justify-content: center;
     margin-left: 450px;
-    margin-top: -20px;
+    margin-top: 10px;
     border: 4px solid black;
     width: 420px;
     justify-content: center;
     text-align: center;
-    box-shadow: 2px 2px 2px green;
+    box-shadow: 6px 6px 6px green;
+    text-shadow: 1px 1px 1px white;
+    border-radius: 15px;
 }
 .f-m-details{
     justify-content: center;
@@ -179,10 +209,6 @@ body{
     
 }
 
-.enter:hover{
-    background-color: white;
-
-}
 
 
 

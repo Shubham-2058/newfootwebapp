@@ -50,7 +50,7 @@ body {
     border-radius: 10px;
     margin: 20px 0;
     opacity: 0.85;
-    height: 1130px;
+    height: 1230px;
   }
   
   .image-container {
@@ -67,7 +67,7 @@ body {
   
   .info {
     position: absolute;
-    top: 132%;
+    top: 131%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.7);
@@ -89,8 +89,9 @@ body {
     color: white;
     border: none;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: -13px;
     text-decoration: underline;
+    margin-left: 80px;
   }
   
   .Rectangular-button:hover {
