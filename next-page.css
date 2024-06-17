@@ -8,7 +8,8 @@ body{
 .second-keyframe img{
     opacity: 1;
 }
-.button{
+.b input[type=file] { 
+    cursor: pointer;
     margin-top: 10px;
     margin-left: 600px;
     width: 140px;
@@ -17,13 +18,12 @@ body{
     border: 2px solid black;
     border-radius: 10px;
     font-size: x-large;
-    cursor: pointer;
     text-decoration: underline;
     color: white;
   
     
 }
-button:hover{
+.b:hover{
     background-color: #0056b3;
     transform: translateY(3px);
 
