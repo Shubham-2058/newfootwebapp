@@ -5,6 +5,28 @@ body{
     
 
 }
+.button{
+    margin-top: 80px;
+    margin-left: 600px;
+    width: 140px;
+    height: 50px;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: x-large;
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+button:hover{
+    background-color: #0056b3;
+    transform: translateY(3px);
+
+}
+
 .first-keyframe{
     width: 45px;
     height: 55px;
@@ -141,21 +163,7 @@ body{
     height: 80px;
     width: 300px;
 }
-.enter{
-    margin-top: 80px;
-    margin-left: 600px;
-    width: 140px;
-    height: 50px;
-    background-color: green;
-    border: 2px solid black;
-    border-radius: 10px;
-    font-size: larger;
-    cursor: pointer;
-    text-decoration: underline;
-    color: white;
-    
 
-}
 .enter:hover{
     background-color: white;
 

@@ -10,85 +10,57 @@ body {
   height: 100vh;
   color: #f9faf9;
   background-color: #edf0ed;
-  background-image: url(teams.jpg);
-}
-
-.match1-img, .german, .scotland, .hungary, .switzerland, .spain {
-  width: 60px;
-}
-
-.switzerland{
-  transform: translate(16%,20%);
-}
-.scotland{
-  transform: translate(12%,20%);
-}
-.germany{
-  transform: translate(12%,20%);
-}
-.hungary{
-  transform: translate(0%,20%);
-}
-.spain{
-  transform:translate(-11%,20%);
-}
-.croatia{
-  width: 60px;
-  height: 40px;
-  transform: translate(15%,20%);
+  background-image: url('teams.jpg');
 }
 
 .container {
-  background-color: #0a0a0acc;
+  background-color: rgba(10, 10, 10, 0.8); /* Semi-transparent dark background */
   padding: 50px;
-  border: 8px solid white;
+  border: 8px solid #ffffff; /* White border */
   text-align: center;
   max-width: 600px;
-  width: 100%;
+  width: 90%;
   box-shadow: 0 4px 8px rgba(52, 66, 146, 0.3);
-  margin-top: 39%;
-  padding-top: 12px;
-  margin-bottom: 2%;
-  
+  margin-top: 10%; /* Adjusted for better positioning */
+  border-radius: 15px; /* Rounded corners */
 }
-.container h2{
-  font-size: 1.8em;
+
+.container h1, .container h2 {
+  font-size: 2.5em;
   margin-bottom: 10px;
   background: -webkit-linear-gradient(#535353, #1a5a21);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
 }
-  .vs1{
-    transform: translate(-18%,0%);
-    margin-left: 25px;
-    font-size: xx-large;
-    width: 900px;
-  
-  }
 
-  .vs2{
-    transform: translate(-16.5%,0%);
-    margin-left: 25px;
-    font-size: xx-large;
-    width: 900px;
-  
-  }
+.vs1, .vs2, .vs3 {
+  margin-left: 0;
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  .vs3{
-    transform: translate(-21%,0%);
-    margin-left: 25px;
-    font-size: xx-large;
-    width: 900px;
-  
-  }
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-h1 {
-  font-size: 3em;
-  margin-bottom: 10px;
-  background: -webkit-linear-gradient(#535353, #1a5a21);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+label {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  color: #ff9a8b;
+  width: 100%;
+}
+
+input[type="number"] {
+  padding: 10px;
+  font-size: 1em;
+  width: 60px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 button {
@@ -101,73 +73,16 @@ button {
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
 }
 
-.button1{
-  background-color: #04AA6D;
+.button1 {
+  background-color: #04aa6d;
 }
 
 button:hover {
-  background-color: #0056b3;
-  transform: translateY(-2px);
-}
-
-.form-group {
-  margin-bottom: 20px;
-  align-items: center;
-}
-
-label {
-  display: block;
-  font-size: 1.1em;
-  margin-bottom: 5px;
-  color: #ff9a8b;
-}
-
-input[type="number"] {
-  padding: 10px;
-  font-size: 1em;
-  width: 60px;
-  margin-right: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.prediction {
-  background-color: rgba(255, 255, 255, 0.2);
-  padding: 10px;
-  border-radius: 5px;
-  margin-bottom: 10px;
-}
-
-#prediction-page {
-  display: none;
-}
-
-#teamA1{
-  width: 35px;
-  height: 10px;
-}
-#teamB1{
-  width: 35px;
-  height: 10px;
-}
-#teamC1{
-  width: 35px;
-  height: 10px;
-}
-#teamD1{
-  width: 35px;
-  height: 10px;
-}
-#teamE1{
-  width: 35px;
-  height: 10px;
-  transform:translate(20%, -6%);
-}
-#teamF1{
-  width: 35px;
-  height: 10px;
+  background-color: #004a9b; /* Darker shade for hover effect */
+  transform: translateY(3px);
 }
 
 .container::before {
@@ -181,4 +96,37 @@ input[type="number"] {
   z-index: -1;
   border-radius: 15px;
   filter: blur(10px);
+}
+
+.match1-img, .german, .scotland, .hungary, .switzerland, .spain, .croatia {
+  width: 60px;
+  height: auto; /* Ensure images scale proportionally */
+  margin: 0 10px;
+  transform: translateY(20%);
+}
+
+.switzerland {
+  transform: translate(16%, 20%);
+}
+
+.scotland {
+  transform: translate(12%, 20%);
+}
+
+.german {
+  transform: translate(12%, 20%);
+}
+
+.hungary {
+  transform: translate(0%, 20%);
+}
+
+.spain {
+  transform: translate(-11%, 20%);
+}
+
+.croatia {
+  width: 60px;
+  height: 40px;
+  transform: translate(15%, 20%);
 }
