@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
           
 
         <h1>Enter Your Predictions </h1> 
-        <h2> For Match-Day 1 </h2>
+        <h2> Upcoming Matches </h2>
         <form id="predictions-form">
           <div class="form-group">
             <label> <h1>Match 1: </h1><br>
