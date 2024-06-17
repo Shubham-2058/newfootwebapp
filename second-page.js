@@ -9,7 +9,9 @@ document.addEventListener('DOMContentLoaded', function() {
     `;
   
     const predictionPage = `
+
       <div class="container">
+  
         <div class="header">
           
 

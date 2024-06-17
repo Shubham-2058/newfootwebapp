@@ -13,32 +13,48 @@ body {
   background-image: url('teams.jpg');
 }
 
+
+
 .container {
-  background-color: rgba(10, 10, 10, 0.8); /* Semi-transparent dark background */
-  padding: 50px;
+  background-color: rgb(1, 38, 51, 0.95); /* Semi-transparent dark background */
+  padding: 150px;
   border: 8px solid #ffffff; /* White border */
   text-align: center;
-  max-width: 600px;
-  width: 90%;
+  height: 1150px;
+  width: 900px;
   box-shadow: 0 4px 8px rgba(52, 66, 146, 0.3);
-  margin-top: 10%; /* Adjusted for better positioning */
-  border-radius: 15px; /* Rounded corners */
+  margin-top: 55%; /* Adjusted for better positioning */
+  border-radius: 10px; /* Rounded corners */
+  padding-top: 2px;
 }
 
 .container h1, .container h2 {
-  font-size: 2.5em;
+  font-size: 4em;
   margin-bottom: 10px;
-  background: -webkit-linear-gradient(#535353, #1a5a21);
+  background: -webkit-linear-gradient(#03030a, #fafafd);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 1px black;
+  font-weight: bold;
+ 
 }
+.container h1{
+  padding-top: -50px;
+  font-size: 5em;
+}
+
 
 .vs1, .vs2, .vs3 {
   margin-left: 0;
-  font-size: 1.5em;
+  font-size: 3em;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: width 10s;
+  background: rgb(1, 38, 51, 0.8);
+}
+.vs2{
+  padding-left: 60px;
 }
 
 .form-group {
@@ -49,9 +65,9 @@ body {
 }
 
 label {
-  font-size: 1.2em;
+  font-size: 1em;
   margin-bottom: 5px;
-  color: #ff9a8b;
+  color: #bdb4b3;
   width: 100%;
 }
 
@@ -99,34 +115,54 @@ button:hover {
 }
 
 .match1-img, .german, .scotland, .hungary, .switzerland, .spain, .croatia {
-  width: 60px;
+  width: 120px;
   height: auto; /* Ensure images scale proportionally */
   margin: 0 10px;
-  transform: translateY(20%);
+  transform: translateY(80%);
 }
 
 .switzerland {
-  transform: translate(16%, 20%);
+  transform: translate(10%, 0%);
+ 
 }
 
 .scotland {
-  transform: translate(12%, 20%);
+  transform: translate(8%, 0%);
 }
 
 .german {
-  transform: translate(12%, 20%);
+  transform: translate(10%, -1%);
 }
 
 .hungary {
-  transform: translate(0%, 20%);
+  transform: translate(5%, 1%);
 }
 
 .spain {
-  transform: translate(-11%, 20%);
+  transform: translate(-28%, 0%);
 }
 
 .croatia {
-  width: 60px;
-  height: 40px;
-  transform: translate(15%, 20%);
+  width: 105px;
+  height: 85px;
+  transform: translate(15%, 0%);
+}
+
+#teamA1{
+  width: 100px;
+}
+#teamB1{
+  width: 100px;
+}
+#teamC1{
+  width: 100px;
+}
+#teamD1{
+  width: 100px;
+}
+#teamE1{
+  width: 100px;
+}
+#teamF1{
+  width: 100px;
 }
