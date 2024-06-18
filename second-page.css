@@ -21,15 +21,15 @@ body {
 }
 
 .container {
-  background-color: rgb(1, 38, 51, 0.95); /* Semi-transparent dark background */
+  background-color: rgb(1, 38, 51, 0.95); 
   padding: 150px;
-  border: 8px solid #ffffff; /* White border */
+  border: 8px solid #ffffff; 
   text-align: center;
   height: 1150px;
   width: 900px;
   box-shadow: 0 4px 8px rgba(52, 66, 146, 0.3);
-  margin-top: 55%; /* Adjusted for better positioning */
-  border-radius: 10px; /* Rounded corners */
+  margin-top: 55%; 
+  border-radius: 10px; 
   padding-top: 2px;
   border-top: 30px solid white;
 }
@@ -103,7 +103,7 @@ button {
 }
 
 button:hover {
-  background-color: #004a9b; /* Darker shade for hover effect */
+  background-color: #004a9b; 
   transform: translateY(3px);
 }
 
@@ -122,7 +122,7 @@ button:hover {
 
 .match1-img, .german, .scotland, .hungary, .switzerland, .spain, .croatia {
   width: 120px;
-  height: auto; /* Ensure images scale proportionally */
+  height: auto; 
   margin: 0 10px;
   transform: translateY(80%);
 }
