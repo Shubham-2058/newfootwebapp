@@ -9,10 +9,14 @@ body{
 .second-keyframe img{
     opacity: 1;
 }
+.header h1{
+    z-index: 1;
+    position: relative;
+}
 .b { 
     cursor: pointer;
     margin-top: 35px;
-    margin-left: 600px;
+    margin-left: 584px;
     width: 140px;
     height: 50px;
     background-color: green;
@@ -39,7 +43,7 @@ body{
     position: relative;
     border-radius: 30px;
     margin-top: 0%;
-    animation: example 6s infinite;
+    animation: example 4s infinite;
 
 }
 
@@ -48,7 +52,7 @@ body{
     column-width: 395px;
     height: 220px;
     width: 280px;
-    margin-top: -1380px;
+    margin-top: -1500px;
     margin-left: 210px;
     font-size: larger;
     text-align: justify;
@@ -108,7 +112,7 @@ body{
     position: relative;
     border-radius: 30px;
     margin-top: 0%;
-    animation: example2 6s infinite;
+    animation: example2 4s infinite;
     justify-content: center;
 
 }
