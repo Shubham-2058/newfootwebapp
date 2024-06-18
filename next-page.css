@@ -102,11 +102,10 @@ body{
     height: 55px;
     opacity: 1;
     animation-name: example2;
-    animation-duration: 10s;
     position: relative;
     border-radius: 30px;
     margin-top: 0%;
-    animation-iteration-count: infinite;
+    animation: example2 5s infinite;
     justify-content: center;
 
 }
@@ -149,7 +148,7 @@ body{
 
 .animation2{
     justify-content: center;
-    transform: translate(60%, 1320%);
+    transform: translate(65%, 150%);
 }
 
 .instructions{
