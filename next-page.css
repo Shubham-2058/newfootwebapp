@@ -39,7 +39,7 @@ body{
     position: relative;
     border-radius: 30px;
     margin-top: 0%;
-    animation: example 5s infinite;
+    animation: example 4s infinite;
     opacity: 1;
 
 }
@@ -105,7 +105,7 @@ body{
     position: relative;
     border-radius: 30px;
     margin-top: 0%;
-    animation: example2 5s infinite;
+    animation: example2 4s infinite;
     justify-content: center;
 
 }
