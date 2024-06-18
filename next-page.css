@@ -4,7 +4,6 @@ body{
     background-color: rgb(1, 30, 63);
     
     
-
 }
 
 .second-keyframe img{
@@ -36,11 +35,11 @@ body{
     height: 55px;
     opacity: 1;
     animation-name: example;
-    animation-duration: 10s;
+    
     position: relative;
     border-radius: 30px;
     margin-top: 0%;
-    animation-iteration-count: infinite;
+    animation: example 5s infinite;
     opacity: 1;
 
 }
@@ -113,19 +112,11 @@ body{
 }
 
 @keyframes example {
-    0%   {left:0px; top:0px;}
-    25%  { left:310px; top:0px;}
-    50%  {left:0px; top:0px;}
-    75%  { left:310px; top:0px;}
-    100% {left:0px; top:0px;}
+    100% {transform: rotate(360deg);}
   } 
 
   @keyframes example2 {
-    0%   {left:0px; top:0px;}
-    25%  { left:-310px; top:0px;}
-    50%  {left:0px; top:0px;}
-    75%  { left:-310px; top:0px;}
-    100% {left:0px; top:0px;}
+    100% {transform: rotate(360deg);}
   } 
 
 .header{
@@ -151,7 +142,7 @@ body{
     
 }
 .animation{
-    transform: translate(35%, -2980%);
+    transform: translate(30%, -3130%);
     margin-top: 75px;
     opacity: 1;
 }
