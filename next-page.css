@@ -63,7 +63,6 @@ body{
     column-rule-width: 5px;
     z-index: 1;
     position: relative;
-
     
 }
 .info h2{
@@ -144,10 +143,12 @@ body{
     opacity: 0.2;
     margin-top: -160px;
     
-    
+}
+.main{
+    margin-top: 40px;
 }
 .animation{
-    transform: translate(37.9%, 90%);
+    transform: translate(37.9%, 166%);
     margin-top: 20px;
     opacity: 1;
     z-index: 1;
@@ -156,7 +157,7 @@ body{
 
 .animation2{
     justify-content: center;
-    transform: translate(50.4%, -9%);
+    transform: translate(50.4%, 73%);
     z-index: 1;
     position: relative;
 }
