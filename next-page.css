@@ -133,13 +133,19 @@ body{
     background-position:left;
     background-size: contain;
     margin-top: -2%;
-    text-shadow: 2px 2px 5px white;
+    text-shadow: 4px 3px 3px white;
+    color:crimson;
+    text-align: center;
+    
 }
 
 .main img{
     opacity: 0.2;
     margin-top: -210px;
     
+}
+.header h1{
+    padding-left: 150px;
 }
 .header img{
     width: 50px;

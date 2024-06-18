@@ -20,7 +20,7 @@ body {
   transform: translate(-276%, -20%);
   margin-left: 7px;
   margin-top: -139px;
-  height: 250px;
+  height: 200px;
 }
 
 .navbar {
@@ -95,6 +95,8 @@ body {
   margin-top: -18px;
   text-decoration: underline;
   margin-left: 60px;
+  z-index: 1;
+  position: relative;
 }
 
 .part {
