@@ -19,6 +19,35 @@ body {
   margin-left: 300px;
   
 }
+.container1{
+  background-color: rgba(1, 30, 39, 0.2); 
+  padding: 150px;
+  border: 8px solid #ffffff; 
+  text-align: center;
+  height: 1150px;
+  width: 900px;
+  box-shadow: 0 4px 8px rgba(52, 66, 146, 0.3);
+  margin-top: 55%; 
+  border-radius: 10px; 
+  padding-top: 600px;
+  border-top: 30px solid white;
+  color: coral;
+  z-index: 1;
+  position: relative;
+  text-shadow: 3px 2px 3px white;
+
+
+}
+.container2{
+  border: 5px solid white;
+  border-radius: 40%;
+  width: 300px;
+  height: 250px;
+  z-index: 1;
+  position: relative;
+  margin-left: 305px;
+  padding-top: 25px;
+}
 
 .container {
   background-color: rgb(1, 38, 51, 0.95); 

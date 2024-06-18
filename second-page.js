@@ -2,9 +2,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const app = document.getElementById('app');
   
     const homePage = `
-      <div class="container">
-        <h1>Euro Cup Score Predictions</h1>
-        <button id="start-predictions">Enter Your Predictions</button>
+      <div class="container1">
+        <div class="container2">
+          <h1>Euro Cup Score Predictions</h1>
+          <button id="start-predictions">Enter Your Predictions</button>
+        </div>
       </div>
     `;
   
