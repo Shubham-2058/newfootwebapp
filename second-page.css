@@ -30,7 +30,7 @@ body {
   margin-top: 25%; 
   border-radius: 50%; 
   padding-top: 550px;
-  border-top: 3px solid white;
+  border-top: 6px solid white;
   color: rgb(16, 9, 78);
   z-index: 1;
   position: relative;
@@ -38,7 +38,7 @@ body {
   background-image: url(esewabg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.7;
+  opacity: 0.8;
   
 }
 .container2{
@@ -52,10 +52,10 @@ body {
   background-size: cover;
   font-size: large;
   position: fixed;
-  margin-top: -220px;
-  margin-left: 159px;
+  margin-top: -270px;
+  margin-left: 140px;
   box-shadow: 5px 5px 5px rgb(251, 251, 253);
-  color:rgb(87, 2, 2);
+  color:rgb(255, 0, 0);
   z-index: 1;
   position: relative;
   
@@ -100,6 +100,7 @@ body {
   justify-content: center;
   transition: width 10s;
   background: rgb(1, 38, 51, 0.8);
+  text-shadow: 5px 5px 4px black;
 }
 .vs2{
   padding-left: 60px;
