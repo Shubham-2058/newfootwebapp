@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const homePage = `
       <div class="container1">
         <div class="container2">
-          <h1>Euro Cup Score Predictions</h1>
+          <h1>Euro Cup Score Predictions</h1><br><br><br><br>
           <button id="start-predictions">Enter Your Predictions</button>
         </div>
       </div>
