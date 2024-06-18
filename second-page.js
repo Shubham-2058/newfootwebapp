@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const homePage = `
       <div class="container1">
         <div class="container2">
-          <h1>Euro Cup Score Predictions</h1><br><br><br><br>
-          <button id="start-predictions">Enter Your Predictions</button>
+          <h1>Euro Cup 2024 Score Predictions</h1><br>
+          <button id="start-predictions"><strong>Enter Your Predictions</strong></button>
         </div>
       </div>
     `;

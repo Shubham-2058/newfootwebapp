@@ -40,21 +40,21 @@ body {
 }
 .container2{
   border: 5px solid rgb(1, 5, 235);
-  border-radius: 40%;
+  border-radius: 60%;
   width: 350px;
-  height: 350px;
+  height: 280px;
   z-index: 1;
   position: relative;
   margin-left: 305px;
-  padding-top: 75px;
+  padding-top: 55px;
   background-image: url(footballbg.jpg);
   background-size: cover;
   font-size: large;
   position: fixed;
-  margin-top: -190px;
+  margin-top: -220px;
   margin-left: 130px;
   box-shadow: 5px 5px 5px rgb(251, 251, 253);
-  color:rgb(2, 2, 49);
+  color:rgb(87, 2, 2);
 
 }
 
