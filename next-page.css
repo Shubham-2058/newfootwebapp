@@ -78,6 +78,12 @@ body{
 .poi{
     height: -11px;
 }
+.lead{
+    height: 13px;
+}
+.fol{
+    height: 13px;
+}
 .info2{
     column-count: 3;
     column-width: 330px;
