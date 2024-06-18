@@ -37,6 +37,7 @@ body {
     padding: 7px 7px 7px 7px;
     text-decoration: none;
     text-align: center;
+  
   }
   
   .intro {
@@ -106,6 +107,17 @@ body {
     text-shadow: 5px 5px 5px black;
     border-radius: 20px;
 
+  }
+  .header{
+    height: 100px;
+    width: 1100px;
+    background-color: aliceblue;
+    margin-top: 10px;
+    align-items: center;
+    margin-left: 200px;
+    text-align: center;
+    justify-content: center;
+    
   }
   
   .Rectangular-button:hover {
