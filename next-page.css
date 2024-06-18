@@ -37,7 +37,7 @@ body{
     position: relative;
     border-radius: 30px;
     margin-top: 0%;
-    animation: example 4s infinite;
+    animation: example 6s infinite;
 
 }
 
@@ -102,7 +102,7 @@ body{
     position: relative;
     border-radius: 30px;
     margin-top: 0%;
-    animation: example2 4s infinite;
+    animation: example2 6s infinite;
     justify-content: center;
 
 }
@@ -111,8 +111,8 @@ body{
     100% {transform: rotate(360deg);}
   } 
 
-  @keyframes example2 {
-    100% {transform: rotate(-360deg);}
+@keyframes example2 {
+    100% {transform: rotate(360deg);}
   } 
 
 .header{
@@ -138,14 +138,14 @@ body{
     
 }
 .animation{
-    transform: translate(32%, 75%);
+    transform: translate(37.6%, 95%);
     margin-top: 20px;
     opacity: 1;
 }
 
 .animation2{
     justify-content: center;
-    transform: translate(63%, -25%);
+    transform: translate(50.2%, -5%);
 }
 
 .instructions{
@@ -161,6 +161,9 @@ body{
     text-align: center;
     box-shadow: 10px 10px 5px lightblue;
     text-shadow: 1px 1px 1px white;
+    letter-spacing: 8px;
+    word-spacing: 8px;
+    text-decoration: underline;
 
     
 }
