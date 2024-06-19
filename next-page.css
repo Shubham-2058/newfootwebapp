@@ -208,7 +208,7 @@ body{
 }
 .instructions h1{
     margin-top: 45px;
-    z-index: 5;
+    z-index: 1;
     position: relative;
 }
 .footer{
