@@ -1,1 +1,1 @@
-this is another project for football website using css and js
+This is the project for football predict and win website using html, css and js.
