@@ -54,6 +54,7 @@ body {
   margin: 20px 0;
   opacity: 0.85;
   height: 1230px;
+  text-shadow: 6px 6px 6px rgb(1, 41, 1);
 }
 
 .image-container {
@@ -81,6 +82,7 @@ body {
   max-width: 965px;
   text-align: center;
   height: 950px;
+  text-shadow: 10px 10px 10px rgb(5, 1, 53);
 }
 
 .Rectangular-button {
@@ -110,7 +112,7 @@ body {
   margin-left: 235px;
   padding-top: -150px;
   box-shadow: 5px 5px 5px blue;
-  text-shadow: 10px 10px 10px black;
+  text-shadow: 10px 10px 10px rgb(16, 0, 87);
   border-radius: 20px;
   text-align: center;
   

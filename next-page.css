@@ -53,7 +53,7 @@ body{
     margin-left: 210px;
     font-size: larger;
     text-align: justify;
-    text-shadow: 2px 2px 2px white;
+    text-shadow: 1px 1px 1px rgb(7, 53, 1);
     text-align: justify;
     align-content:center;
     column-rule-style:groove;
@@ -93,7 +93,7 @@ body{
     margin-left: 215px;
     font-size: larger;
     text-align: justify;
-    text-shadow: 2px 2px 2px white;
+    text-shadow: 1px 1px 1px rgb(0, 46, 6);
     column-rule-style: groove;
     column-rule-width: 5px;
     z-index: 1;
@@ -180,7 +180,7 @@ body{
     justify-content: center;
     text-align: center;
     box-shadow: 10px 10px 5px lightblue;
-    text-shadow: 1px 1px 1px white;
+    text-shadow: 5px 5px 5px rgb(9, 53, 1);
     letter-spacing: 8px;
     word-spacing: 8px;
     text-decoration: underline;
@@ -220,7 +220,7 @@ body{
     justify-content: center;
     text-align: center;
     box-shadow: 6px 6px 6px green;
-    text-shadow: 1px 1px 1px white;
+    text-shadow: 1px 1px 1px rgb(7, 53, 1);
     border-radius: 15px;
     z-index: 1;
     position: relative;
